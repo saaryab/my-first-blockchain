@@ -1,0 +1,25 @@
+{
+  "name": "my-first-blockchain",
+  "version": "1.0.0",
+  "description": "practice making a blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/saaryab/my-first-blockchain.git"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "author": "saarya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saaryab/my-first-blockchain/issues"
+  },
+  "homepage": "https://github.com/saaryab/my-first-blockchain#readme",
+  "dependencies": {
+    "solc": "^0.4.18"
+  }
+}
