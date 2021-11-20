@@ -1,0 +1,17 @@
+
+1. install parity
+2. install solc (windows zip from https://github.com/ethereum/solidity/releases) and add sloc to path
+3. make hello.sol
+4. run solc --optimize --combined-json abi,bin,interface hello.sol > hello.json
+5. change parity shortcut to "C:\Program Files\Parity\Parity\ptray.exe" --config dev -d parity-data ui
+6. curl (example: https://github.com/paritytech/parity/wiki/JSONRPC-eth-module#eth_sendtransaction)
+7. curl --data '{"method":"eth_accounts","params":[],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:8545
+
+
+parity chrome extentsion does injection web3 for you
+https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html
+
+web3.eth.getBlock('latest')
+
+
+http://remix.ethereum.org/#version=soljson-v0.4.18+commit.9cf6e910.js
